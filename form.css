@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 120, 75, 0.639),rgba(0, 120, 75, 0.639)),url(download.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box{
+    background-color: white;
+    width: 50%;
+    height: 75vh;
+    transform: translate(52%,18%);
+    opacity: 0.7;
+    border: solid 0.2px;
+}
+.form_div div{
+    padding: 20px;
+    padding-top: 35px;
+    font-size: large;
+    height: 40px;
+}
+label{
+    width: 500px;
+    display: inline-block;
+}
+.form-box{
+    border-radius: 20px;
+}
+.heading{
+    padding-top: 15px;
+    width: 90%;
+}
+.heading h1{
+    text-align: center;
+}
+.special{
+    cursor: pointer;
+    height: 10px;
+}
+.design{
+    font-size: large;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border: 0.2px solid;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.grp-btn{
+    border: 0;
+    background-color: white;
+}
+input[type="submit"] {
+    background-color: #007bff; /* Change the background color */
+    color: white; /* Change the text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the "Generate PDF" button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+.design,
+    .grp-btn a {
+        background-color: #007bff; /* Change the background color */
+        color: white; /* Change the text color */
+        padding: 10px 20px; /* Adjust padding as needed */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none; /* Remove underlines from anchor links */
+        display: inline-block; /* Make anchor links behave like buttons */
+    }
+
+    /* Style for the category buttons on hover */
+    .design:hover,
+    .grp-btn a:hover {
+        background-color: #0056b3; /* Change the background color on hover */
+    }
+
+    /* Style for the "Category" button */
+    .design {
+        margin-right: 10px; /* Add some spacing between buttons */
+    }
+
+    /* Style for the "Non-Sense" and "Sentences" buttons */
+    .grp-btn a {
+        margin-right: 10px; /* Add some spacing between buttons */
+    }
+    
+    .category2{
+        margin-left: 10px;
+    }
+
